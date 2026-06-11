@@ -1,5 +1,5 @@
 ol.proj.proj4.register(proj4);
-//ol.proj.get("EPSG:5938").setExtent([-4880340.017989, -5538163.241087, 7297134.466598, 1252250.040281]);
+//ol.proj.get("EPSG:5938").setExtent([-4201298.689853, -5458941.752805, 7976175.794734, 1331471.528563]);
 var wms_layers = [];
 
 
@@ -43,9 +43,9 @@ var lyr_Location_2 = new ol.layer.Vector({
                 popuplayertitle: 'Location',
                 interactive: true,
     title: 'Location<br />\
-    <img src="styles/legend/Location_2_0.png" /> Normal movement<br />\
-    <img src="styles/legend/Location_2_1.png" /> Post-breeding migration<br />\
-    <img src="styles/legend/Location_2_2.png" /> Pre-breeding movement<br />' });
+    <img src="styles/legend/Location_2_0.png" /> Normal <br />\
+    <img src="styles/legend/Location_2_1.png" /> Post-breeding <br />\
+    <img src="styles/legend/Location_2_2.png" /> Pre-breeding<br />' });
 var format_Migrationroute_3 = new ol.format.GeoJSON();
 var features_Migrationroute_3 = format_Migrationroute_3.readFeatures(json_Migrationroute_3, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:5938'});
@@ -75,9 +75,9 @@ var lyr_Location_4 = new ol.layer.Vector({
                 popuplayertitle: 'Location',
                 interactive: true,
     title: 'Location<br />\
-    <img src="styles/legend/Location_4_0.png" /> Normal movement<br />\
-    <img src="styles/legend/Location_4_1.png" /> Post-breeding migration<br />\
-    <img src="styles/legend/Location_4_2.png" /> Pre-breeding migration<br />' });
+    <img src="styles/legend/Location_4_0.png" /> Normal<br />\
+    <img src="styles/legend/Location_4_1.png" /> Post-breeding<br />\
+    <img src="styles/legend/Location_4_2.png" /> Pre-breeding<br />' });
 var format_Migrationroute_5 = new ol.format.GeoJSON();
 var features_Migrationroute_5 = format_Migrationroute_5.readFeatures(json_Migrationroute_5, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:5938'});
@@ -107,9 +107,9 @@ var lyr_Location_6 = new ol.layer.Vector({
                 popuplayertitle: 'Location',
                 interactive: true,
     title: 'Location<br />\
-    <img src="styles/legend/Location_6_0.png" /> Normal movement<br />\
-    <img src="styles/legend/Location_6_1.png" /> Post-breeding migration<br />\
-    <img src="styles/legend/Location_6_2.png" /> Pre-breeding migration<br />' });
+    <img src="styles/legend/Location_6_0.png" /> Normal <br />\
+    <img src="styles/legend/Location_6_1.png" /> Post-breeding<br />\
+    <img src="styles/legend/Location_6_2.png" /> Pre-breeding<br />' });
 var format_Migrationroute_7 = new ol.format.GeoJSON();
 var features_Migrationroute_7 = format_Migrationroute_7.readFeatures(json_Migrationroute_7, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:5938'});
@@ -139,9 +139,9 @@ var lyr_Location_8 = new ol.layer.Vector({
                 popuplayertitle: 'Location',
                 interactive: true,
     title: 'Location<br />\
-    <img src="styles/legend/Location_8_0.png" /> Normal movement<br />\
-    <img src="styles/legend/Location_8_1.png" /> Post-breeding migration<br />\
-    <img src="styles/legend/Location_8_2.png" /> Pre-breeding movement<br />' });
+    <img src="styles/legend/Location_8_0.png" /> Normal <br />\
+    <img src="styles/legend/Location_8_1.png" /> Post-breeding <br />\
+    <img src="styles/legend/Location_8_2.png" /> Pre-breeding<br />' });
 var format_Migrationroute_9 = new ol.format.GeoJSON();
 var features_Migrationroute_9 = format_Migrationroute_9.readFeatures(json_Migrationroute_9, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:5938'});
@@ -171,9 +171,9 @@ var lyr_Location_10 = new ol.layer.Vector({
                 popuplayertitle: 'Location',
                 interactive: true,
     title: 'Location<br />\
-    <img src="styles/legend/Location_10_0.png" /> Normal movement<br />\
-    <img src="styles/legend/Location_10_1.png" /> Post-breeding migration<br />\
-    <img src="styles/legend/Location_10_2.png" /> Pre-breeding movement<br />' });
+    <img src="styles/legend/Location_10_0.png" /> Normal <br />\
+    <img src="styles/legend/Location_10_1.png" /> Post-breeding<br />\
+    <img src="styles/legend/Location_10_2.png" /> Pre-breeding<br />' });
 var format_Migrationroute_11 = new ol.format.GeoJSON();
 var features_Migrationroute_11 = format_Migrationroute_11.readFeatures(json_Migrationroute_11, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:5938'});
@@ -203,9 +203,9 @@ var lyr_Location_12 = new ol.layer.Vector({
                 popuplayertitle: 'Location',
                 interactive: true,
     title: 'Location<br />\
-    <img src="styles/legend/Location_12_0.png" /> Normal movement<br />\
-    <img src="styles/legend/Location_12_1.png" /> Post-breeding migration<br />\
-    <img src="styles/legend/Location_12_2.png" /> Pre-breeding movement<br />' });
+    <img src="styles/legend/Location_12_0.png" /> Normal<br />\
+    <img src="styles/legend/Location_12_1.png" /> Post-breeding <br />\
+    <img src="styles/legend/Location_12_2.png" /> Pre-breeding <br />' });
 var format_Migrationroute_13 = new ol.format.GeoJSON();
 var features_Migrationroute_13 = format_Migrationroute_13.readFeatures(json_Migrationroute_13, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:5938'});
@@ -235,9 +235,9 @@ var lyr_Location_14 = new ol.layer.Vector({
                 popuplayertitle: 'Location',
                 interactive: true,
     title: 'Location<br />\
-    <img src="styles/legend/Location_14_0.png" /> Normal movement<br />\
-    <img src="styles/legend/Location_14_1.png" /> Post-breeding migration<br />\
-    <img src="styles/legend/Location_14_2.png" /> Pre-breeding migration<br />' });
+    <img src="styles/legend/Location_14_0.png" /> Normal<br />\
+    <img src="styles/legend/Location_14_1.png" /> Post-breeding <br />\
+    <img src="styles/legend/Location_14_2.png" /> Pre-breeding<br />' });
 var format_Migrationroute_15 = new ol.format.GeoJSON();
 var features_Migrationroute_15 = format_Migrationroute_15.readFeatures(json_Migrationroute_15, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:5938'});
@@ -267,7 +267,7 @@ var lyr_Location_16 = new ol.layer.Vector({
                 popuplayertitle: 'Location',
                 interactive: true,
     title: 'Location<br />\
-    <img src="styles/legend/Location_16_0.png" /> Post-breeding migration<br />' });
+    <img src="styles/legend/Location_16_0.png" /> Post-breeding<br />' });
 var format_Migrationroute_17 = new ol.format.GeoJSON();
 var features_Migrationroute_17 = format_Migrationroute_17.readFeatures(json_Migrationroute_17, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:5938'});
@@ -297,9 +297,9 @@ var lyr_Location_18 = new ol.layer.Vector({
                 popuplayertitle: 'Location',
                 interactive: true,
     title: 'Location<br />\
-    <img src="styles/legend/Location_18_0.png" /> Normal movement<br />\
-    <img src="styles/legend/Location_18_1.png" /> Post-breeding migration<br />\
-    <img src="styles/legend/Location_18_2.png" /> Pre-breeding movement<br />' });
+    <img src="styles/legend/Location_18_0.png" /> Normal<br />\
+    <img src="styles/legend/Location_18_1.png" /> Post-breeding <br />\
+    <img src="styles/legend/Location_18_2.png" /> Pre-breeding<br />' });
 var group_Utertoq = new ol.layer.Group({
                                 layers: [lyr_Migrationroute_17,lyr_Location_18,],
                                 fold: 'open',
@@ -386,13 +386,13 @@ lyr_Location_8.set('fieldLabels', {'Name': 'inline label - always visible', 'Sex
 lyr_Migrationroute_9.set('fieldLabels', {'fid': 'hidden field', 'begin': 'hidden field', 'end': 'hidden field', });
 lyr_Location_10.set('fieldLabels', {'Name': 'inline label - always visible', 'Sex': 'inline label - always visible', 'Date': 'inline label - always visible', 'location-long': 'hidden field', 'location-lat': 'hidden field', 'individual-local-identifier': 'hidden field', 'Migration type': 'hidden field', });
 lyr_Migrationroute_11.set('fieldLabels', {'fid': 'hidden field', 'begin': 'hidden field', 'end': 'hidden field', });
-lyr_Location_12.set('fieldLabels', {'Name': 'inline label - always visible', 'Sex': 'inline label - always visible', 'Date': 'inline label - always visible', 'location-long': 'hidden field', 'location-lat': 'hidden field', 'individual-local-identifier': 'hidden field', 'Migration type': 'hidden field', });
+lyr_Location_12.set('fieldLabels', {'Name': 'no label', 'Sex': 'no label', 'Date': 'no label', 'location-long': 'no label', 'location-lat': 'no label', 'individual-local-identifier': 'no label', 'Migration type': 'no label', });
 lyr_Migrationroute_13.set('fieldLabels', {'fid': 'hidden field', 'begin': 'hidden field', 'end': 'hidden field', });
 lyr_Location_14.set('fieldLabels', {'Name': 'inline label - always visible', 'Sex': 'inline label - always visible', 'Date': 'inline label - always visible', 'location-long': 'hidden field', 'location-lat': 'hidden field', 'individual-local-identifier': 'hidden field', 'Migration type': 'hidden field', });
 lyr_Migrationroute_15.set('fieldLabels', {'fid': 'hidden field', 'begin': 'hidden field', 'end': 'hidden field', });
 lyr_Location_16.set('fieldLabels', {'Name': 'inline label - always visible', 'Sex': 'inline label - always visible', 'Date': 'inline label - always visible', 'location-long': 'hidden field', 'location-lat': 'hidden field', 'individual-local-identifier': 'hidden field', 'Migration type': 'hidden field', });
 lyr_Migrationroute_17.set('fieldLabels', {'fid': 'hidden field', 'begin': 'hidden field', 'end': 'hidden field', });
-lyr_Location_18.set('fieldLabels', {'Name': 'inline label - always visible', 'Sex': 'inline label - always visible', 'Date': 'inline label - always visible', 'location-long': 'hidden field', 'location-lat': 'hidden field', 'individual-local-identifier': 'hidden field', 'Migration type': 'hidden field', });
+lyr_Location_18.set('fieldLabels', {'Name': 'inline label - always visible', 'Sex': 'no label', 'Date': 'inline label - always visible', 'location-long': 'hidden field', 'location-lat': 'hidden field', 'individual-local-identifier': 'hidden field', 'Migration type': 'hidden field', });
 lyr_Location_18.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
